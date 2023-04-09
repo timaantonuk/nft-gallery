@@ -1,0 +1,20 @@
+.search-box {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 6px;
+  width: 150px;
+  line-height: 30px;
+  margin: 30px 0px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.768);
+}
+
+.search-box::placeholder {
+    color: rgba(0, 0, 0, 0.51);
+    padding-left: 8%;
+}
+
+.search-box:focus-visible {
+    padding-left: 20px;
+}

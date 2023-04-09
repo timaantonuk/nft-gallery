@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik Pixels', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgb(58, 7, 82) 0%, rgb(128, 0, 85) 100%);
+  text-align: center;
+}
+
+.app-title {
+  color: white;
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 64px;
+  background: -webkit-linear-gradient(#00b3ff, #1a032e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
